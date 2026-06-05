@@ -4,56 +4,82 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Support Praew</title>
+
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #fff7fb;
+      background: #fff4fa;
       color: #333;
       text-align: center;
       padding: 40px 20px;
     }
+
     .card {
-      max-width: 420px;
+      max-width: 430px;
       margin: auto;
       background: white;
-      padding: 28px;
-      border-radius: 24px;
+      padding: 30px;
+      border-radius: 28px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.08);
     }
-    h1 { margin-bottom: 8px; }
-    p { color: #666; }
+
+    h1 {
+      margin-bottom: 10px;
+      font-size: 32px;
+    }
+
+    p {
+      color: #666;
+      line-height: 1.6;
+    }
+
+    .qr {
+      max-width: 220px;
+      width: 80%;
+      margin: 20px auto;
+      border-radius: 18px;
+    }
+
     .btn {
       display: block;
       margin: 14px 0;
-      padding: 14px;
+      padding: 15px;
       border-radius: 999px;
       text-decoration: none;
-      background: #ff8fc7;
+      background: #f47fbe;
       color: white;
       font-weight: bold;
+      font-size: 18px;
     }
-    img {
-      max-width: 220px;
-      border-radius: 16px;
-      margin: 16px 0;
+
+    .note {
+      font-size: 14px;
+      color: #999;
+      margin-top: 20px;
     }
   </style>
 </head>
+
 <body>
   <div class="card">
-    <h1>Support Praew 💖</h1>
+    <h1>Support JaJa 💖</h1>
     <p>ขอบคุณที่แวะมาซัพพอร์ตตอนสตรีมนะคะ</p>
 
-    <img src="qr.png" alt="QR Donate" />
+    <!-- อัปโหลด QR ชื่อไฟล์ qr.png ไว้ใน GitHub repo เดียวกับ index.html -->
+    <img class="qr" src="qr.png" alt="QR Donate" />
 
-    <a class="btn" href="https://your-donate-link.com" target="_blank">
+    <!-- ใส่ลิงก์ Donate จริง ตรง href ด้านล่างนี้ -->
+    <a class="btn" href="https://ใส่ลิงก์โดเนทของแพรวตรงนี้" target="_blank">
       Donate
     </a>
 
-    <a class="btn" href="https://twitch.tv/yourname" target="_blank">
+    <!-- ใส่ลิงก์ Stream จริง ตรง href ด้านล่างนี้ -->
+    <a class="btn" href="https://ใส่ลิงก์สตรีมของแพรวตรงนี้" target="_blank">
       My Stream
     </a>
+
+    <p class="note">꒰ imyour JaJa ꒱</p>
   </div>
 </body>
 </html>
