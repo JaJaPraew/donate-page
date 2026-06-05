@@ -1,84 +1,114 @@
 <!DOCTYPE html>
+
 <html lang="th">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Support Praew</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support JaJa</title>
 
-  <style>
-   body {
-  background: linear-gradient(180deg, #eaf7ff 0%, #f7fcff 100%);
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-.card {
-  background: #ffffff;
-  border: 1px solid #dff3ff;
-  box-shadow: 0 18px 45px rgba(143, 207, 255, 0.22);
+body{
+    font-family:Arial,sans-serif;
+    background:linear-gradient(180deg,#eaf7ff 0%,#f7fcff 100%);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
 }
 
-.badge {
-  background: #eaf7ff;
-  color: #6aaed6;
+.card{
+    width:100%;
+    max-width:480px;
+    background:#ffffff;
+    padding:35px;
+    border-radius:30px;
+    text-align:center;
+    border:1px solid #dff3ff;
+    box-shadow:0 18px 45px rgba(143,207,255,0.22);
 }
 
-h1 {
-  color: #2f3b52;
+h1{
+    font-size:42px;
+    color:#2f3b52;
+    margin-bottom:12px;
 }
 
-.desc {
-  color: #7f9db8;
+p{
+    color:#7f9db8;
+    line-height:1.7;
 }
 
-.qr-box {
-  background: #f4fbff;
-  border: 1px dashed #bfe6ff;
+.qr{
+    width:260px;
+    max-width:100%;
+    margin:30px auto;
+    display:block;
+    border-radius:20px;
 }
 
-.btn {
-  background: #8fcfff;
-  color: white;
-  box-shadow: 0 8px 18px rgba(143, 207, 255, 0.35);
+.btn{
+    display:block;
+    width:100%;
+    text-decoration:none;
+    background:#8fcfff;
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    padding:16px;
+    border-radius:999px;
+    margin-top:16px;
+    box-shadow:0 8px 18px rgba(143,207,255,0.35);
 }
 
-.btn:hover {
-  background: #75c3fb;
+.btn:hover{
+    background:#75c3fb;
 }
 
-.btn.secondary {
-  background: #dff3ff;
-  color: #4d93bd;
+.note{
+    margin-top:30px;
+    font-size:15px;
+    color:#9ab0c4;
 }
+</style>
 
-.btn.secondary:hover {
-  background: #cfeeff;
-}
-
-.note {
-  color: #9ab0c4;
-}
-    }
-  </style>
 </head>
 
 <body>
-  <div class="card">
-    <h1>Support JaJa 🩵</h1>
-    <p>ขอบคุณที่แวะมาซัพพอร์ตตอนสตรีมนะคะ</p>
 
-    <!-- อัปโหลด QR ชื่อไฟล์ qr.png ไว้ใน GitHub repo เดียวกับ index.html -->
-    <img class="qr" src="qr.png" alt="QR Donate" />
+<div class="card">
 
-    <!-- ใส่ลิงก์ Donate จริง ตรง href ด้านล่างนี้ -->
-    <a class="btn" href="https://ใส่ลิงก์โดเนทของแพรวตรงนี้" target="_blank">
-      โดเนทขึ้นจอ
-    </a>
+```
+<h1>Support JaJa 💙</h1>
 
-    <!-- ใส่ลิงก์ Stream จริง ตรง href ด้านล่างนี้ -->
-    <a class="btn" href="https://ใส่ลิงก์สตรีมของแพรวตรงนี้" target="_blank">
-      My Stream
-    </a>
+<p>
+    ขอบคุณที่แวะมาซัพพอร์ตตอนสตรีมนะคะ
+</p>
 
-    <p class="note">꒰ imyour JaJa ꒱</p>
-  </div>
+<img class="qr" src="qr.png" alt="QR Donate">
+
+<a class="btn"
+   href="https://ใส่ลิงก์โดเนทของแพรวตรงนี้"
+   target="_blank">
+    โดเนทขึ้นจอ
+</a>
+
+<a class="btn"
+   href="https://ใส่ลิงก์สตรีมของแพรวตรงนี้"
+   target="_blank">
+    My Stream
+</a>
+
+<p class="note">꒰ imyour JaJa ꒱</p>
+```
+
+</div>
+
 </body>
 </html>
