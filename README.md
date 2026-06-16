@@ -4,13 +4,8 @@
 
 🌍 **ดูหน้าเว็บของจริงได้ที่นี่:** [jajapraew.github.io](https://jajapraew.github.io)
 
----
-
----
-
----
 
 ## 💬 ช่องทางการติดตาม (Contact & Follow)
 ฝากติดตามผลงานสตรีมและช่องทางอื่นๆ ของ JaJa ได้ที่:
-* **My Stream:** [แทนที่ข้อความนี้ด้วยลิงก์สตรีมของคุณ เช่น Twitch หรือ YouTube]
-* **Social Media:** [แทนที่ข้อความนี้ด้วยลิงก์ Facebook, IG, หรือ X ของคุณ]
+* **My Stream:** [https://www.tiktok.com/@jajapraew?_r=1&_t=ZS-97GZKD1s3z2]
+* **Social Media:** [ig : p.suja / tiktok : @jajapraew]
