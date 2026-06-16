@@ -6,10 +6,6 @@
 
 ---
 
-## 📸 ภาพตัวอย่างหน้าเว็บ (Screenshot)
-
-![หน้าเว็บ Support JaJa](image.png)
-
 ---
 
 ---
