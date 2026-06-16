@@ -2,7 +2,7 @@
 
 หน้าเว็บ Landing Page สไตล์มินิมอลสำหรับรวบรวมช่องทางการสนับสนุน (Donation) และโซเชียลมีเดียต่างๆ เพื่อความสะดวกของผู้ชมและใช้ประกอบการสตรีมมิ่ง
 
-🌍 **ดูหน้าเว็บของจริงได้ที่นี่:** [jajapraew.github.io](https://jajapraew.github.io)
+🌍 **ดูหน้าเว็บของจริงได้ที่นี่:** https://jajapraew.github.io/donate-page/
 
 
 ## 💬 ช่องทางการติดตาม (Contact & Follow)
