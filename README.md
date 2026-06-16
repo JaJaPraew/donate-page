@@ -7,5 +7,5 @@
 
 ## 💬 ช่องทางการติดตาม (Contact & Follow)
 ฝากติดตามผลงานสตรีมและช่องทางอื่นๆ ของ JaJa ได้ที่:
-* **My Stream:** [https://www.tiktok.com/@jajapraew?_r=1&_t=ZS-97GZKD1s3z2]
-* **Social Media:** [ig : p.suja / tiktok : @jajapraew]
+* **My Stream:** https://www.tiktok.com/@jajapraew?_r=1&_t=ZS-97GZKD1s3z2
+* **Social Media:** ig : p.suja / tiktok : @jajapraew
