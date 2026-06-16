@@ -1,96 +1,126 @@
 <!DOCTYPE html>
-
 <html lang="th">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Support JaJa</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support JaJa 💙</title>
 
-<style>
-body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#eef8ff;
-    color:#333;
-    text-align:center;
-    padding:40px 20px;
-}
+    <meta property="og:title" content="Support JaJa 💙">
+    <meta property="og:description" content="ช่องทางการสนับสนุนและติดตามผลงานสตรีมของ JaJa">
+    <meta property="og:image" content="image.png">
+    <meta property="og:url" content="https://jajapraew.github.io/donate-page/">
 
-.card{
-    max-width:430px;
-    margin:auto;
-    background:white;
-    padding:28px;
-    border-radius:24px;
-    box-shadow:0 10px 30px rgba(0,0,0,0.08);
-}
+    <link rel="icon" type="image/png" href="image.png">
 
-h1{
-    margin-bottom:8px;
-}
+    <style>
+        /* ตั้งค่าพื้นฐาน */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        /* สีพื้นหลังของหน้าเว็บ */
+        body {
+            background-color: #f0f5fa; /* สีฟ้าอ่อนอมเทาแบบมินิมอล */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
 
-p{
-    color:#666;
-}
+        /* กล่องการ์ดสีขาวตรงกลาง */
+        .card {
+            background-color: #ffffff;
+            border-radius: 20px;
+            padding: 40px 30px;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); /* เงาบางๆ ให้ดูมีมิติ */
+        }
 
-.qr{
-    max-width:220px;
-    width:100%;
-    border-radius:16px;
-    margin:16px 0;
-}
+        h1 {
+            color: #333333;
+            font-size: 26px;
+            margin-bottom: 8px;
+        }
 
-.btn{
-    display:block;
-    margin:14px 0;
-    padding:14px;
-    border-radius:999px;
-    text-decoration:none;
-    background:#8fcfff;
-    color:white;
-    font-weight:bold;
-}
+        p.subtitle {
+            color: #777777;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
 
-.btn:hover{
-    background:#78c4f8;
-}
+        /* ตั้งค่ารูป QR Code */
+        .qr-code {
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
 
-.note{
-    color:#8aa6bf;
-    font-size:14px;
-    margin-top:15px;
-}
-</style>
+        /* ตกแต่งปุ่มกด */
+        .btn {
+            display: block;
+            width: 100%;
+            background-color: #93c5fd; /* สีฟ้าของปุ่ม */
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            border-radius: 25px;
+            margin-bottom: 15px;
+            font-weight: 600;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease; /* ทำให้เอฟเฟกต์สมูท */
+        }
 
+        /* เอฟเฟกต์เวลาเอาเมาส์ชี้ที่ปุ่ม */
+        .btn:hover {
+            transform: translateY(-3px); /* ลอยขึ้นนิดนึง */
+            box-shadow: 0 5px 15px rgba(147, 197, 253, 0.5); /* เพิ่มเงาสีฟ้า */
+            background-color: #7baef2; /* สีเข้มขึ้นนิดนึง */
+        }
+
+        .signature {
+            color: #bbbbbb;
+            font-size: 12px;
+            margin-top: 15px;
+        }
+
+        /* ส่วนท้ายสุดของหน้าเว็บ */
+        footer {
+            text-align: center;
+            color: #888888;
+            font-size: 12px;
+            margin-top: 30px;
+        }
+    </style>
 </head>
-
 <body>
 
-<div class="card">
+    <div class="card">
+        <h1>Support JaJa 💙</h1>
+        <p class="subtitle">ขอบคุณที่แวะมาซัพพอร์ตตอนสตรีมนะคะ</p>
 
-```
-<h1>Support JaJa 💙</h1>
+        <img src="image.png" alt="QR Code" class="qr-code">
 
-<p>ขอบคุณที่แวะมาซัพพอร์ตตอนสตรีมนะคะ</p>
+        <a href="#" class="btn">💸 โดเนทขึ้นจอ</a>
+        <a href="#" class="btn">🎮 My Stream</a>
 
-<img class="qr" src="qr.png" alt="QR Donate">
+        <p class="signature">{ imyour JaJa }</p>
+    </div>
 
-<a class="btn"
-   href="https://ezdn.app/moogrobjhyun"
-   target="_blank">
-    โดเนทขึ้นจอ
-</a>
-
-<a class="btn"
-   href="https://ใส่ลิงก์สตรีมของแพรวตรงนี้"
-   target="_blank">
-    My Stream
-</a>
-
-<p class="note">꒰ imyour JaJa ꒱</p>
-```
-
-</div>
+    <footer>
+        &copy; 2026 JaJa Stream. All rights reserved. <br>
+        Contact for work: your-email@example.com
+    </footer>
 
 </body>
 </html>
